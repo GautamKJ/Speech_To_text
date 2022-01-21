@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkorange;
+}
+.container{
+    margin-top: 5%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    overflow: scroll;
+    background-color: white;
+    width: 40%;
+    height: 30vh;
+    max-height: 35vh;
+    
+}
